@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CartesianProduct {
+public class CartesianProduct1 {
 
   
 	public static void main(String[] args) {

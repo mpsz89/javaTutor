@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Tauthology {
 
-  public static int neg(int a){
+	public static int neg(int a){
 		if(a==1){
 			return 0;
 		}
@@ -482,6 +482,7 @@ public class Tauthology {
 			MathLogic2(p, q, r, p1, q1, r1, p2, q2, r2, p3, q3, r3, p4, q4, r4, p5, q5, r5, p6, q6, r6, p7, q7, r7, CommunConj(p, q, r), CommunConj(p1, q1, r1), CommunConj(p2, q2, r2), CommunConj(p3, q3, r3), CommunConj(p4, q4, r4), CommunConj(p5, q5, r5), CommunConj(p6, q6, r6), CommunConj(p7, q7, r7));
 			System.out.println(" ");
 			isTau1(CommunConj(p, q, r), CommunConj(p1, q1, r1), CommunConj(p2, q2, r2), CommunConj(p3, q3, r3), CommunConj(p4, q4, r4), CommunConj(p5, q5, r5), CommunConj(p6, q6, r6), CommunConj(p7, q7, r7));
+			break;
 		 case 6:
 			 System.out.println("____COMMUNICATION_LAW_ALTERNATIVE___");
 			 try {
@@ -573,6 +574,7 @@ public class Tauthology {
 			MathLogic(p, p1, p2,p3,IdeConj(p),IdeConj(p1),IdeConj(p2),IdeConj(p3));
 			System.out.println(" ");
 			isTau(IdeConj(p), IdeConj(p1), IdeConj(p2), IdeConj(p3));
+			break;
 		 case 8:
 			 System.out.println("____LAW_IDEMPOTENTITY_ALTERNATIVE____");
 			 try {
@@ -731,7 +733,7 @@ public class Tauthology {
 			System.out.println(" ");
 			MathLogic2(p, q, r, p1, q1, r1, p2, q2, r2, p3, q3, r3, p4, q4, r4, p5, q5, r5, p6, q6, r6, p7, q7, r7,  DistrAltConj(p, q, r), DistrAltConj(p1, q1, r1), DistrAltConj(p2, q2, r2), DistrAltConj(p3, q3, r3), DistrAltConj(p4, q4, r4), DistrAltConj(p5, q5, r5), DistrAltConj(p6, q6, r6), DistrAltConj(p7, q7, r7));
 			System.out.println(" ");
-			isTau(DistrAltConj(p, q, r), DistrAltConj(p1, q1, r1), DistrAltConj(p2, q2, r2), DistrAltConj(p3, q3, r3));
+			isTau1(DistrAltConj(p, q, r), DistrAltConj(p1, q1, r1), DistrAltConj(p2, q2, r2), DistrAltConj(p3, q3, r3),DistrAltConj(p4, q4, r4), DistrAltConj(p5, q5, r5), DistrAltConj(p6, q6, r6), DistrAltConj(p7, q7, r7));
 			break;
 		 case 11:
 			 System.out.println("____LAW_OF_THE_EXCLUDED_MIDDLE____");

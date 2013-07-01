@@ -1,5 +1,3 @@
-package BooleanAlgebra;
-
 import java.util.Scanner;
 import java.io.*;
 
